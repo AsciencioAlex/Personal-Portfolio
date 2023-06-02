@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 
 :root {
-  /* Primary Colors */
   --CL-primary-blue: #6070ff;
   --CL-primary-blue-250: #7f8cff;
   --CL-primary-blue-500: #396df2;
@@ -11,12 +10,10 @@
   --CL-primary-light: #ebebff;
   --CL-primary-dark: #172b4d;
 
-  /* Neutral Colors */
   --CL-neutral-white: #fff;
   --CL-neutral-white-off: #dfe1e6;
   --CL-neutral-white-off-200: #f7f7f9;
 
-  /* Font Families */
   --FF-primary-poppins: "Poppins", sans-serif;
 }
 
@@ -84,37 +81,6 @@ hr {
   height: 100%;
 }
 
-.button__primary {
-  display: inline-block;
-  margin: 1.25em 0 0 0;
-  padding: 12px;
-  border: 1px solid var(--CL-primary-blue);
-  border-radius: 8px;
-  font-size: 17px;
-  color: var(--CL-primary-blue-500);
-  letter-spacing: 0.03em;
-}
-
-.button__primary:hover {
-  background-color: var(--CL-primary-blue);
-  color: var(--CL-neutral-white);
-}
-
-.button__primary:active {
-  background-color: var(--CL-primary-blue-600);
-  color: var(--CL-neutral-white);
-}
-
-.button__primary:disabled {
-  background-color: var(--CL-primary-blue-600);
-  color: var(--CL-neutral-white);
-}
-
-.primary__link {
-  text-transform: uppercase;
-  color: var(--CL-primary-blue-250);
-  margin: 0.5em 0;
-}
 
 .social__icons {
   gap: 1.5em;
@@ -166,8 +132,6 @@ hr {
   display: none;
 }
 
-
-
 #flexbox-head-container {
   background-image: url("img/mbl.svg");
   background-repeat: no-repeat;
@@ -179,9 +143,6 @@ hr {
   right: 0;
   pointer-events: none;
 }
-
-
-
 .main {
   margin-top: 48px;
   height: 100%;

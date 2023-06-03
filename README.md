@@ -1,7 +1,6 @@
 
 <div align="center">
- 
-  <img src="#" alt="logo" width="140"  height="auto" />
+
   <br/>
 
   <h3><b>Personal Portfolio README</b></h3>
@@ -70,6 +69,9 @@
 - **portfolio logo**
 - **Navigation bar**
 - **social media Icons** 
+- **Portfolio page** 
+- **skills section** 
+- **Resume** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,9 +149,9 @@ You can deploy this project using:
 
 The other features that will be added to this project are:
 
-- [ ] **Addition of about me page**
-- [ ] **addition of portfolio page**
-- [ ] **addition of footer page**
+- [ ] **Addition of page responsiveness**
+- [ ] **Download of resume button**
+- [ ] **addition of portfolio images**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

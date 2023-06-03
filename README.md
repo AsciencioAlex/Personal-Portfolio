@@ -173,6 +173,16 @@ If you like this project feel free to clone it and take some features that will 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **Can I run the project without installing on terminal?**
+
+  - Yes, you can run it directly on the browser
+
+- **Can I build such as page from scratch and where can I learn?**
+
+  - Yes its possible. Join Microverse(https://www.microverse.org/)
+
 
 ## 📝 License <a name="license"></a>
 

@@ -8,6 +8,7 @@
 
 </div>
 
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -17,35 +18,58 @@
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ ](#faq)
 - [📝 License](#license)
 
 
 
-# 📖 [Personal Portfolio] <a name="about-project"></a>
 
- **[Personal Portfolio]** a personal portfolio that highlights skills.
+# 📖 Personal Portfolio <a name="about-project"></a>
+
+ **Personal Portfolio** a personal portfolio that highlights skills.
 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Client</summary>
   <ul>
-    <li><a href="h#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-    <li><a href="#">GitHub</a></li>
- <li><a href="#">Figma</a></li>
+    <li><a href="https://www.w3schools.com/html">HTML</a></li>
   </ul>
+</details>
 
+<details>
+  <summary>Presentation</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Design</summary>
+  <ul>
+    <li><a href="https://www.figma.com/files/recent?fuid=1246186345363993295">Figma</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
+ The following are key features that are displayed on the portfolio
+
 - **portfolio logo**
 - **Navigation bar**
-- **social media Icons**
+- **social media Icons** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,36 +81,57 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
- To get started with this project, follow these steps:
+To get a local copy up and running, follow these steps.
 
-### Setup 'Personal Portfolio' Project 
+### Prerequisites
 
-bash
-Copy code
-git clone https://github.com/AsciencioAlex/Personal-Portfolio.git
-
-Navigate to the project directory:
-
- cd Personal-Portfolio
+In order to run this project you need to install stylelint as follows:
 
 
-Open the project in your preferred text editor or IDE.
+```sh
+ npm init stylelint
+```
 
-# Prerequisites
+### Setup
 
-Before running this project, ensure that you have the following prerequisites installed:
+Clone this repository to your desired folder:
 
-Web browser (e.g., Google Chrome, Mozilla Firefox)
+```sh
+  cd my-folder
+  git clone https://github.com/AsciencioAlex/Personal-Portfolio.git
+```
 
-Text editor or Integrated Development Environment (IDE) for editing code.
-Basic knowledge of CSS and HTML
+### Install
 
+Install this project with:
+
+
+```sh
+  cd Personal-Portfolio
+  
+```
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npx stylelint main.css
+```
 
 ### Run tests
-Open the index.html file in your web browser.
 
-You should see a "a page that contains information for a portfolio" message displayed in your browser.
+To run tests, run the following command:
 
+```sh
+  google-chrom index.html
+```
+### Deployment
+
+You can deploy this project using:
+
+```sh
+  http://localhost/Personal-Portfolio:8080/
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,6 +142,16 @@ You should see a "a page that contains information for a portfolio" message disp
 - GitHub: [@githubhandle](https://github.com/Asciencioalex)
 - Twitter: [@twitterhandle](https://twitter.com/@Codenetech)
 - LinkedIn: [LinkedIn](https://linkedin.com/alex-asciencio-413612b9/)
+
+## 🔭 Future Features <a name="future-features"></a>
+
+The other features that will be added to this project are:
+
+- [ ] **Addition of about me page**
+- [ ] **addition of portfolio page**
+- [ ] **addition of footer page**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 

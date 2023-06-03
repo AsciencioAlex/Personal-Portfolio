@@ -208,6 +208,7 @@ hr {
   max-width: 920px;
   margin: 0 auto;
 }
+
 /* portfolio page */
 
 .experience {
@@ -233,10 +234,12 @@ hr {
 .port-body {
   margin: 0.5em 0;
 }
+
 .port-name {
   font-size: 32px;
   line-height: 44px;
 }
+
 .port-description {
   gap: 2em;
   font-size: 13px;
@@ -279,8 +282,6 @@ hr {
   padding: 0.25em 1em;
   border-radius: 8px;
 }
-
-
 .about_page {
   padding: 4em 0;
   gap: 0.5em;
@@ -293,15 +294,16 @@ hr {
 .category-about_page {
   padding: 1em;
 }
-
 .about_page__subtitle {
   font-size: 20px;
   font-weight: 500;
 }
+
 .about_page__list {
   gap: 1em;
   margin: 1em 0 0 0;
 }
+
 .about_page__item {
   display: flex;
   align-items: center;
@@ -317,6 +319,7 @@ hr {
   font-size: 40px;
   line-height: 52px;
 }
+
 @media (min-width: 768px) {
   #flexbox-head-container {
     background-image: url("img/dsk_t.svg");

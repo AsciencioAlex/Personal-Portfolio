@@ -33,6 +33,7 @@ html {
 html,
 body {
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -115,6 +116,7 @@ hr {
 
 .social__icons {
   gap: 1.5em;
+  list-style-type: none;
 }
 
 .flex-row {
@@ -141,6 +143,10 @@ hr {
 .grid {
   display: grid;
 }
+.flex-container {
+  width: min(86%, 180rem);
+  margin: 0 auto;
+}
 
 .Flexbox-header {
   position: absolute;
@@ -154,11 +160,12 @@ hr {
 
 .logo {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .navigation_head {
   display: none;
+  
 }
 
 #flexbox-head-container {

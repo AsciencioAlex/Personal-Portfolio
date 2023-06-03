@@ -143,6 +143,7 @@ hr {
 .grid {
   display: grid;
 }
+
 .flex-container {
   width: min(86%, 180rem);
   margin: 0 auto;
@@ -165,7 +166,6 @@ hr {
 
 .navigation_head {
   display: none;
-  
 }
 
 #flexbox-head-container {

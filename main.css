@@ -273,6 +273,8 @@ hr {
   list-style-type: none;
   flex-wrap: wrap;
   margin: 1em 0 0 0;
+  display:flex;
+  justify-content:flex-end;
 }
 
 .subject {

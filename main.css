@@ -86,8 +86,8 @@ hr {
   display: inline-block;
   margin: 1.25em 0 0 0;
   padding: 12px;
-  border: 1px solid var(--CL-primary-blue);
   border-radius: 8px;
+  border: 1px solid var(--CL-primary-blue);
   font-size: 17px;
   color: var(--CL-primary-blue-500);
   letter-spacing: 0.03em;

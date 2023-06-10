@@ -23,7 +23,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 0; 
 }
 
 html {
@@ -321,42 +321,6 @@ hr {
   font-size: 40px;
   line-height: 52px;
 }
-
-@media (min-width: 768px) {
-  #flexbox-head-container {
-    background-image: url("img/dsk_t.svg");
-  }
-
-  .Flexbox-header {
-    height: 72px;
-  }
-
-  .NavToggle {
-    display: none;
-  }
-
-  .navigation_list {
-    list-style-type: none;
-    gap: 2em;
-  }
-
-  .navigation_head {
-    display: inline-block;
-  }
-
-  .section--headline {
-    margin: 0 auto;
-  }
-
-  .headline__title {
-    font-size: 48px;
-  }
-
-  .headline__description {
-    font-size: 20px;
-  }
-  
-}
 .contact-me {
   position: absolute;
   width: 100%;
@@ -430,7 +394,6 @@ textarea {
   margin-top: 22px;
   margin-left: 24px;
 }
-
 .el-botones p {
   display: flex;
   justify-content: center;
@@ -460,4 +423,40 @@ textarea {
   align-items: stretch;
   justify-content: center;
   color: #fff;
+}
+
+@media (min-width: 768px) {
+  #flexbox-head-container {
+    background-image: url("img/dsk_t.svg");
+  }
+
+  .Flexbox-header {
+    height: 72px;
+  }
+
+  .NavToggle {
+    display: none;
+  }
+
+  .navigation_list {
+    list-style-type: none;
+    gap: 2em;
+  }
+
+  .navigation_head {
+    display: inline-block;
+  }
+
+  .section--headline {
+    margin: 0 auto;
+  }
+
+  .headline__title {
+    font-size: 48px;
+  }
+
+  .headline__description {
+    font-size: 20px;
+  }
+  
 }

@@ -1,346 +1,463 @@
-<!DOCTYPE html>
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Personal Portfolio</title>
-  <link rel="stylesheet" href="main.css" />
- 
-</head>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 
-	<body>
-		<header class="Flexbox-header">
-			<div
-				class="flex-container header flex-row align-center justify-between"
-			>
-				<a href="#" class="logo color-primary">My Logo</a>
-				<svg
-					class="NavToggle"
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-				<path
-						fill-rule="evenodd"
-						clip-rule="evenodd"
-						d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12ZM4 16C3.44772 16 3 16.4477 3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17C21 16.4477 20.5523 16 20 16H4Z"
-						fill="#6070FF" >
+:root {
+  /* Primary Colors */
+  --CL-primary-blue: #6070ff;
+  --CL-primary-blue-250: #7f8cff;
+  --CL-primary-blue-500: #396df2;
+  --CL-primary-blue-600: #2230d2;
+  --CL-primary-gray-300: #7a869a;
+  --CL-primary-gray-650: #344563;
+  --CL-primary-light: #ebebff;
+  --CL-primary-dark: #172b4d;
 
-			</path>
-		</svg>
-				<nav class="navigation_head">
-					<ul class="navigation_list flex-row align-center">
-						<li class="navigation_list--item">
-							<a class="color-info" href="#">Portfolio</a>
-						</li>
-						<li class="navigation_list--item">
-							<a class="color-info" href="#">About</a>
-						</li>
-						<li class="navigation_list--item">
-							<a class="color-info" href="#">Contact</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<main class="main">
-			<div class="bg" id="flexbox-head-container"></div>
-			<section class="section section__white section__white--bottom">
-				<div class="headline flex-column justify-center">
-					<h1 class="headline__title color-dark">
-						I'm Asciencio.
-						<br />
-						Glad to see you!
-					</h1>
-					<p class="desc color-info">
-						I’m a software developer! I can help you build a product ,
-						feature or website Look through some of my work and experience!
-						If you like what you see and have a project you need coded,
-						don’t hesitate to contact me.
-					</p>
-					<a href="#" class="primary__link">LET'S CONNECT</a>
-					<ul class="social__icons flex-row align-center">
-						<li><a href=""><img src="img/t_icon.png" alt="Twitter icon" /></a></li>
-						<li><a href=""><img src="img/Li_icon.png" alt="LinkedIn icon" /></a></li>
-						<li><a href=""><img src="img/m_icon.png" alt="Medium icon" /></a></li>
-						<li><a href=""><img src="img/_gth_icon.png" alt="Github icon" /></a></li>
-						<li><a href=""><img src="img/finger_c.png" alt="finger icon" /></a></li>
-					
-					</ul>
-				</div>
-			</section>
-			<section class="portfolio" id="experience">
-				<article class="experience grid">
-					<div class="my_portfolio">
-						<header class="nav-port">
-							<img src="img/work/port1.png" alt="work 1 "class="port-photo">
-						</header>
-						<div class="port-body">
-							<h3 class="port-name color-dark">Tonic</h3>
-							<div class="port-description flex-row align-center">
-								<h4 class="port-invent color-info">Canopy</h4>
-								<ul class="job_done flex-row">
-									<li class="items">Back End Dev</li>
-									<li class="items">2015</li>
-								</ul>
-							</div>
-							<p class="description-main">
-								A daily selection of privately personalized reads; no accounts
-								or sign-ups required.
-							</p>
-							<ul class="subjects flex-row align-center">
-								<li class="subject">HTML</li>
-								<li class="subject">CSS</li>
-								<li class="subject">JavaScript</li>
-							</ul>
-							<div class="click">
-								<a href="#" class="button__primary">See project</a>
-							</div>
-						</div>
-						
-					</article>
-					<article class="my_portfolio grid">
-						<header class="nav-port">
-							<img
-								src="img/work/port4.png"
-								alt="Work 4"
-								class="port-photo"
-							/>
-						</header>
-						<div class="port-body">
-							<h3 class="port-name color-dark">Multi-Post Stories</h3>
-							<div class="port-description flex-row align-center">
-								<h4 class="port-invent color-info">Canopy</h4>
-								<ul class="job_done flex-row">
-									<li class="items">Back End Dev</li>
-									<li class="items">2015</li>
-								</ul>
-							</div>
-							<p class="description-main">
-								A daily selection of privately personalized reads; no accounts
-								or sign-ups required.
-							</p>
-							<ul class="subjects flex-row align-center">
-								<li class="subject">HTML</li>
-								<li class="subject">CSS</li>
-								<li class="subject">JavaScript</li>
-							</ul>
-							<div class="click">
-								<a href="#" class="button__primary">See project</a>
-							</div>
-						</div>
-					</article>
-				<article class="my_portfolio grid">
-						<header class="nav-port">
-							<img
-								src="img/work/port2.png"
-								alt="portfolio 2"
-								class="port-photo"
-							/>
-						</header>
-						<div class="port-body">
-							<h3 class="port-name color-dark">Multi-Post Stories</h3>
-							<div class="port-description flex-row align-center">
-								<h4 class="port-invent color-info">Canopy</h4>
-								<ul class="job_done flex-row">
-									<li class="items">Back End Dev</li>
-									<li class="items">2015</li>
-								</ul>
-							</div>
-							<p class="description-main">
-								A daily selection of privately personalized reads; no accounts
-								or sign-ups required.
-							</p>
-							<ul class="subjects flex-row align-center">
-								<li class="subject">HTML</li>
-								<li class="subject">CSS</li>
-								<li class="subject">JavaScript</li>
-							</ul>
-							<div class="click">
-								<a href="#" class="button__primary">See project</a>
-							</div>
-						</div>
-					</article>
-					<article class="my_portfolio grid">
-						<header class="nav-port">
-							<img
-								src="img/work/port3.png"
-								alt="portfolio 3"
-								class="port-photo"
-							/>
-						</header>
-							<div class="port-body">
-							<h3 class="port-name color-dark">Tonic</h3>
-							<div class="port-description flex-row align-center">
-								<h4 class="port-invent color-info">Canopy</h4>
-								<ul class="job_done flex-row">
-									<li class="items">Back End Dev</li>
-									<li class="items">2015</li>
-								</ul>
-							</div>
-							<p class="description-main">
-								A daily selection of privately personalized reads; no accounts
-								or sign-ups required.
-							</p>
-							<p class="description-main">
-								A daily selection of privately personalized reads; no accounts
-								or sign-ups required.
-							</p>
-							<ul class="subjects flex-row align-center">
-								<li class="subject">HTML</li>
-								<li class="subject">CSS</li>
-								<li class="subject">JavaScript</li>
-							</ul>
-							<div class="click">
-								<a href="#" class="button__primary">See project</a>
-							</div>
-						</div>
-					</article>
-					<article class="my_portfolio grid">
-						<header class="nav-port">
-							<img
-								src="img/work/port4.png"
-								alt="portfolio 4"
-								class="port-photo"
-							/>
-						</header>
-						<div class="port-body">
-							<h3 class="port-name color-dark">Multi-Post Stories</h3>
-							<div class="port-description flex-row align-center">
-								<h4 class="port-invent color-info">Canopy</h4>
-								<ul class="job_done flex-row">
-									<li class="items">Back End Dev</li>
-									<li class="items">2015</li>
-								</ul>
-							</div>
-							<p class="description-main">
-								A daily selection of privately personalized reads; no accounts
-								or sign-ups required.
-							</p>
-							<ul class="subjects flex-row align-center">
-								<li class="subject">HTML</li>
-								<li class="subject">CSS</li>
-								<li class="subject">JavaScript</li>
-							</ul>
-							<div class="click">
-								<a href="#" class="button__primary">See project</a>
-							</div>
-						</div>
-					</article>
-				</div>
-			</section>
-			<section
-				class="section section__white section__white--top"
-				id="about"
-			>
-				<div class="about flex-column justify-center">
-					<h2 class="about__title color-dark">About Myself</h2>
-					<p class="color-info">
-						Hello I'm a software developer! I can help you build a product,
-						feature or website. Look through some of my work and experience!
-						If you like what you see and have a project you need coded,
-						don't hesitate to contact me.
-					</p>
-					<a href="#" class="primary__link">LET'S CONNECT</a>
-					<ul class="social__icons flex-row align-center">
-						<li><a href=""><img src="img/t_icon.png" alt="Twitter icon" /></a></li>
-						<li><a href=""><img src="img/Li_icon.png" alt="LinkedIn icon" /></a></li>
-						<li><a href=""><img src="img/m_icon.png" alt="Medium icon" /></a></li>
-						<li><a href=""><img src="img/_gth_icon.png" alt="Github icon" /></a></li>
-						<li><a href=""><img src="img/finger_c.png" alt="finger icon" /></a></li>
-					
-					</ul>
-					</div>
-					<div class="about_page__actions">
-						<a href="#" class="button__primary"
-							>Get my resume</a
-						>
-					</div>
-					<div class="category-about_page">
-						<header
-							class="about_page__header flex-row justify-between align-center"
-						>
-							<h3 class="about_page__subtitle">Languages</h3>
-							<img src="img/about_page/arr_d.svg" alt="Arrow down icon" />
-						</header>
-						<ul class="about_page__list grid">
-							<li class="about_page__item">
-								<img
-									src="img/about_page/javascript.png"
-									alt="javascript png image"
-								/>
-								JavaScript
-							</li>
-							<li class="about_page__item">
-								<img
-									src="img/about_page/html.png"
-									alt="javascript png image"
-								/>
-								HTML
-							</li>
-							<li class="about_page__item">
-								<img
-									src="img/about_page/css.png"
-									alt="javascript png image"
-								/>
-								CSS
-							</li>
-						</ul>
-					</div>
-					<div class="category-about_page">
-						<header
-							class="about_page__header flex-row justify-between align-center"
-						>
-							<h3 class="about_page__subtitle">Frameworks</h3>
-							<img
-								src="img/about_page/arr_r.svg"
-								alt="Arrow right icon"
-							/>
-						</header>
-					</div>
-					<hr />
-					<div class="category-about_page">
-						<header
-							class="about_page__header flex-row justify-between align-center"
-						>
-							<h3 class="about_page__subtitle">Skills</h3>
-							<img
-								src="img/about_page/arr_r.svg"
-								alt="Arrow right icon"
-							/>
-						</header>
-					</div>
-					<hr />
-				</div>
-			</section>
-			
-   <section class="contact-me">
-    
-    <form>
-      <div class="background">
-      <h2>contact-me</h2>
-      <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-        I’d love to help with it!</p>
-      <label for="">
-        <input type="text" id="message" placeholder="Lorem Ipsum"/>
-      </label>
-      <label for="">
-        <input type="text" id="message" placeholder="loremipsum@gmail.com"/>
-      </label>
-      <textarea id="message-box" placeholder = "">
-        
-      </textarea>
-      <button class="el-botones">
-        <p>Get in touch</p>
-      </button>
-      </div>
-    </form>
-  </section>
-  </div>
+  /* Neutral Colors */
+  --CL-neutral-white: #fff;
+  --CL-neutral-white-off: #dfe1e6;
+  --CL-neutral-white-off-200: #f7f7f9;
 
+  /* Font Families */
+  --FF-primary-poppins: "Poppins", sans-serif;
+}
 
-		</main>
-	</body>
-</html>
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: var(--FF-primary-poppins);
+  background-color: var(--CL-neutral-white-off-200);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+hr {
+  height: 1px;
+  background-color: var(--CL-neutral-white-off);
+  border: none;
+}
+
+.container {
+  width: min(86%, 180rem);
+  margin: 0 auto;
+}
+
+.color-primary {
+  color: var(--CL-primary-blue);
+}
+
+.color-secondary {
+  color: var(--CL-primary-blue-250);
+}
+
+.color-dark {
+  color: var(--CL-primary-dark);
+}
+
+.color-info {
+  color: var(--CL-primary-gray-650);
+}
+
+.bg {
+  height: 100%;
+}
+
+.button__primary {
+  display: inline-block;
+  margin: 1.25em 0 0 0;
+  padding: 12px;
+  border: 1px solid var(--CL-primary-blue);
+  border-radius: 8px;
+  font-size: 17px;
+  color: var(--CL-primary-blue-500);
+  letter-spacing: 0.03em;
+}
+
+.button__primary:hover {
+  background-color: var(--CL-primary-blue);
+  color: var(--CL-neutral-white);
+}
+
+.button__primary:active {
+  background-color: var(--CL-primary-blue-600);
+  color: var(--CL-neutral-white);
+}
+
+.button__primary:disabled {
+  background-color: var(--CL-primary-blue-600);
+  color: var(--CL-neutral-white);
+}
+
+.primary__link {
+  text-transform: uppercase;
+  color: var(--CL-primary-blue-250);
+  margin: 0.5em 0;
+}
+
+.social__icons {
+  gap: 1.5em;
+  list-style-type: none;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex-container {
+  width: min(86%, 180rem);
+  margin: 0 auto;
+}
+
+.Flexbox-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--CL-neutral-white);
+  height: 48px;
+  z-index: 100;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navigation_head {
+  display: none;
+}
+
+#flexbox-head-container {
+  background-image: url("img/mbl.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 48px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+.main {
+  margin-top: 48px;
+  height: 100%;
+}
+
+.section {
+  padding: 0 1.5em;
+}
+
+.section__white {
+  background-color: var(--CL-neutral-white);
+}
+
+.section__white--top {
+  border-radius: 0 6em 0 0;
+}
+
+.section__white--bottom {
+  border-radius: 0 0 0 6em;
+}
+
+.headline {
+  height: 100vh;
+  border-radius: 0 0 0 5em;
+  gap: 0.8em;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+/* portfolio page */
+
+.experience {
+  gap: 4em;
+  padding: 4em 0;
+}
+
+.my_portfolio {
+  background-color: var(--CL-neutral-white);
+  padding: 16px;
+  border-radius: 16px;
+  gap: 0.25em;
+  border: 1px solid var(--CL-neutral-white-off);
+}
+
+.port-photo {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.port-body {
+  margin: 0.5em 0;
+}
+
+.port-name {
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.port-description {
+  gap: 2em;
+  font-size: 13px;
+  margin: 0.75em 0;
+}
+
+.port-invent {
+  text-transform: uppercase;
+}
+
+.job_done {
+  gap: 2em;
+  flex-wrap: wrap;
+  line-height: 0.001;
+}
+
+.description-main {
+  color: var(--CL-primary-gray-300-650);
+  font-size: 15px;
+  margin: 0 0 1em 0;
+}
+
+.items {
+  color: var(--CL-primary-gray-300);
+  font-weight: 600;
+}
+
+.subjects {
+  gap: 0.75em;
+  font-size: 12px;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin: 1em 0 0 0;
+}
+
+.subject {
+  color: var(--CL-primary-blue);
+  background-color: var(--CL-primary-light);
+  font-weight: 500;
+  padding: 0.25em 1em;
+  border-radius: 8px;
+}
+
+.about_page {
+  padding: 4em 0;
+  gap: 0.5em;
+}
+
+.about_page__title {
+  font-size: 40px;
+}
+
+.category-about_page {
+  padding: 1em;
+}
+
+.about_page__subtitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about_page__list {
+  gap: 1em;
+  margin: 1em 0 0 0;
+}
+
+.about_page__item {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0.5em;
+  background-color: var(--CL-neutral-white-off-200);
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.headline__title {
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.contact-me {
+  position: absolute;
+  width: cover;
+  left: 1px;
+  background: #6070ff;
+  border-top-left-radius: 80px;
+}
+
+.contact-me h2 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  margin-top: 103px;
+  text-align: center;
+}
+
+.contact-me p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+.loremipsum {
+  position: absolute;
+  background: #fff;
+}
+
+input {
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+  width: 327px;
+  height: 48px;
+  margin-top: 20px;
+  margin-left: 24px;
+}
+
+textarea {
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+  margin-top: 18px;
+  width: 327px;
+  height: 170px;
+  margin-left: 24px;
+}
+
+.el-botones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background-color: white;
+  border: 1px solid #6070ff;
+  width: 162px;
+  height: 48px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 22px;
+  margin-left: 24px;
+}
+
+.el-botones p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 24px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  padding-top: 20px;
+}
+
+.background {
+  background-image: url(assets/contact-form.png);
+  padding: 90px 24px;
+  border-top-left-radius: 90px;
+  background-size: contain, cover;
+  background-position: right;
+  background-clip: padding-box, padding-box;
+  background-repeat: no-repeat, no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: stretch;
+  justify-content: center;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  #flexbox-head-container {
+    background-image: url("img/dsk_t.svg");
+  }
+
+  .Flexbox-header {
+    height: 72px;
+  }
+
+  .NavToggle {
+    display: none;
+  }
+
+  .navigation_list {
+    list-style-type: none;
+    gap: 2em;
+  }
+
+  .navigation_head {
+    display: inline-block;
+  }
+
+  .section--headline {
+    margin: 0 auto;
+  }
+
+  .headline__title {
+    font-size: 48px;
+  }
+
+  .headline__description {
+    font-size: 20px;
+  }
+}

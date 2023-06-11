@@ -414,9 +414,9 @@ textarea {
 .background {
   background-image: url(assets/contact-form.png);
   padding: 90px 24px;
+  background-position: right;
   border-top-left-radius: 90px;
   background-size: contain, cover;
-  background-position: right;
   background-clip: padding-box, padding-box;
   background-repeat: no-repeat, no-repeat;
   display: flex;

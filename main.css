@@ -86,8 +86,8 @@ hr {
   display: inline-block;
   margin: 1.25em 0 0 0;
   padding: 12px;
-  border-radius: 8px;
   border: 1px solid var(--CL-primary-blue);
+  border-radius: 8px;
   font-size: 17px;
   color: var(--CL-primary-blue-500);
   letter-spacing: 0.03em;
@@ -429,7 +429,7 @@ textarea {
 
 @media (min-width: 768px) {
   #flexbox-head-container {
-    background-image: url("img/dsk_t.svg");
+    background-image: url("img/mbl.svg");
   }
 
   .Flexbox-header {

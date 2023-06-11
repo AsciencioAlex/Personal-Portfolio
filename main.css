@@ -23,7 +23,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0; 
+  margin: 0;
 }
 
 html {
@@ -322,45 +322,10 @@ hr {
   line-height: 52px;
 }
 
-@media (min-width: 768px) {
-  #flexbox-head-container {
-    background-image: url("img/dsk_t.svg");
-  }
-
-  .Flexbox-header {
-    height: 72px;
-  }
-
-  .NavToggle {
-    display: none;
-  }
-
-  .navigation_list {
-    list-style-type: none;
-    gap: 2em;
-  }
-
-  .navigation_head {
-    display: inline-block;
-  }
-
-  .section--headline {
-    margin: 0 auto;
-  }
-
-  .headline__title {
-    font-size: 48px;
-  }
-
-  .headline__description {
-    font-size: 20px;
-  }
-  
-}
 .contact-me {
   position: absolute;
-  width: 100%;
-  left: 0px;
+  width: cover;
+  left: 1px;
   background: #6070ff;
   border-top-left-radius: 80px;
 }
@@ -371,7 +336,7 @@ hr {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #ffffff;
+  color: #fff;
   margin-top: 103px;
   text-align: center;
 }
@@ -390,14 +355,14 @@ hr {
 
 .loremipsum {
   position: absolute;
-  background: #FFFFFF;
+  background: #fff;
 }
 
 input {
   display: block;
   border-radius: 8px;
-  border: 1px solid #CFD8DC;
-  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  background: #fff;
   width: 327px;
   height: 48px;
   margin-top: 20px;
@@ -407,8 +372,8 @@ input {
 textarea {
   display: block;
   border-radius: 8px;
-  border: 1px solid #CFD8DC;
-  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  background: #fff;
   margin-top: 18px;
   width: 327px;
   height: 170px;
@@ -460,4 +425,39 @@ textarea {
   align-items: stretch;
   justify-content: center;
   color: #fff;
+}
+
+@media (min-width: 768px) {
+  #flexbox-head-container {
+    background-image: url("img/dsk_t.svg");
+  }
+
+  .Flexbox-header {
+    height: 72px;
+  }
+
+  .NavToggle {
+    display: none;
+  }
+
+  .navigation_list {
+    list-style-type: none;
+    gap: 2em;
+  }
+
+  .navigation_head {
+    display: inline-block;
+  }
+
+  .section--headline {
+    margin: 0 auto;
+  }
+
+  .headline__title {
+    font-size: 48px;
+  }
+
+  .headline__description {
+    font-size: 20px;
+  }
 }
